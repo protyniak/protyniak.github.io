@@ -292,7 +292,18 @@ header::after{
     margin-bottom: 15px;
 }
 
-/* end media */
+/*Season 2*/
+.page-header2{
+    background-image: url('../images/season-2-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 90vh;
+    position: relative;
+}
+
+
+/* media */
 @media (max-width: 1420px){
   .page-logo {
         left: 10px;
@@ -310,7 +321,8 @@ header::after{
     .about__info{
         width: 250px;
     }
-    .page-header{
+    .page-header,
+    .page-header2{
         height: 120vh;
     }
 }
@@ -461,7 +473,8 @@ header::after{
         bottom: 0;
         left: 0;
     }
-    .page-header{
+    .page-header,
+    .page-header2{
         height: 160vh;
     }
 }
@@ -473,7 +486,8 @@ header::after{
 }
 
 @media (max-width: 374px) {
-    .page-header{
+    .page-header,
+    .page-header2{
         height: 200vh;
     }
 }
